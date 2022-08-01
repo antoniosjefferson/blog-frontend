@@ -17,7 +17,7 @@
     <router-link to="/posts/new">New Post</router-link>
   </nav>
   <router-view />
-  <footer><h1>FOOTS</h1></footer>
+  <footer><h1>Footer</h1></footer>
 </template>
 
 <style>

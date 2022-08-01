@@ -25,7 +25,7 @@ export default {
 </script>
 
 <template>
-  <div class="posts">
+  <div class="posts-new">
     <form v-on:submit.prevent="createPost()">
       <h1>New Post</h1>
       <ul>
