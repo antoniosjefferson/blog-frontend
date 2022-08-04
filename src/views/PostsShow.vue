@@ -24,8 +24,8 @@ export default {
       <p>{{ post.title }}</p>
       <p>{{ post.body }}</p>
       <router-link to="/posts">Back To All Posts</router-link>
-      <!-- |
-      <router-link v-bind:to="`/posts/${post.id}/edit`">Edit this Post</router-link> -->
+      |
+      <router-link v-bind:to="`/posts/${post.id}/edit`">Edit this Post</router-link>
     </div>
   </div>
 </template>
